@@ -49,19 +49,24 @@ div {
     padding-top: 0px;
 }
 
-
 body {
     font-family: "alagard", Arial, sans-serif;
     margin: 0;
     padding: 10px;
     background-color: #000000;
     background-image: url('static/bg.png');
+
 }
 
 h1 {
-    color: #333;
+    color: #797979;
     animation: fadeIn 2s;
     padding-top: 15px;
+}
+
+h3 {
+    color: #797979;
+    padding: 10px;
 }
 
 p {
@@ -81,7 +86,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: none
+    border: none;
+    background-color: none;
 }
 
 .box {
@@ -117,3 +123,16 @@ animation {
         opacity: 1;
     }
 }
+
+.about{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #ff0000, #ae00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
