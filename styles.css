@@ -86,7 +86,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     border: none;
-    background-color: none;
 }
 
 .box {
@@ -96,6 +95,7 @@ footer {
     padding-top: 1px;
     min-width: 25%;
     background-color: #45454548;
+    border-radius: 10px;
     /* max-width: max-content; */
 }
 .box:hover{
