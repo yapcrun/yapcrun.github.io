@@ -19,6 +19,7 @@ nav ul {
     display: flex;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -57,10 +58,19 @@ body {
 
 }
 
-h1 {
+h1{
+    text-align: center;
+}
+.projects_header {
     color: #797979;
     animation: fadeIn 2s;
-    padding-top: 15px;
+    transition: color 300ms ease, transform 300ms ease;
+}
+.projects_header:hover{
+    /* Lift slightly, change color on hover */
+    color: #bbbbbb;
+    transform: translateY(-3px);
+
 }
 
 h3 {
@@ -109,9 +119,9 @@ footer {
 }
 
 .gradient-text {
+    padding-top: 15px;
     background: linear-gradient(90deg, #ff0000, #ae00ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-size: 20%;
     background-clip: text;
     color: transparent;
 }
